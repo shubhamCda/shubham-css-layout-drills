@@ -46,6 +46,7 @@ body {
   background-color: rgb(30, 255, 0);
   height: 300px;
   width: 300px;
+  flex: 1;
   margin-right: 4px;
 }
 
