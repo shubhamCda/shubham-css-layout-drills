@@ -1,0 +1,35 @@
+.flex-box-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+.div-1 {
+  height: 150px;
+  width: 150px;
+  background-color: red;
+}
+
+.flex-box-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.div-2 {
+  height: 150px;
+  width: 150px;
+  background-color: rgb(0, 255, 34);
+}
+
+.flex-box-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.div-3 {
+  height: 150px;
+  width: 150px;
+  background-color: rgb(0, 38, 255);
+}
