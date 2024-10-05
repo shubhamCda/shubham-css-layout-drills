@@ -1,4 +1,4 @@
-body{
+body {
   margin: 0;
   padding: 0;
 }
@@ -18,29 +18,40 @@ body{
       
     } */
 
-    .flex-box{
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap-reverse;
-    }
+.flex-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
-   
-    .div-1{
-      background-color: rgb(247, 2, 2);
-      height: 300px;
-      width: 300px;
-      margin-right: 450px;
-      flex: 1;
-    }
 
-    .div-2{
-      background-color: rgb(30, 255, 0);
-      flex: 1;
-      margin-right: 4px;
-    }
+.div-1 {
+  background-color: rgb(247, 2, 2);
+  height: 300px;
+  width: 300px;
+  
+  /* margin-right: 450PX; */
 
-    .div-3{
-      background-color: blue;
-      flex: 1;
-    }
+}
 
+.div-content {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: end; */
+
+
+}
+
+.div-2 {
+  background-color: rgb(30, 255, 0);
+  height: 300px;
+  width: 300px;
+  margin-right: 4px;
+}
+
+.div-3 {
+  background-color: blue;
+  flex: 1;
+  height: 300px;
+  width: 300px;
+}
