@@ -1,0 +1,29 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  display: flex;
+  height: 70vh;
+  width: 20vw;
+  background-color: red;
+}
+
+.div-1{
+  width: 180px;
+  height: 200px;
+  background-color: green;
+  position: absolute;
+  top: 256px;
+  left: 130px;
+}
+
+.div-2{
+  width: 150px;
+  height: 150px;
+  background-color: blue;
+  position: relative;
+  top: 381px;
+  left: 70px;
+}
