@@ -14,8 +14,8 @@ body{
 .div-1{
   display: flex;
   background-color: red;
-  height: 24em;
-  width: 24em;
+  height: 24rem;
+  width: 24rem;
   align-items: center;
   justify-content: center;
   /* flex: 1; */
