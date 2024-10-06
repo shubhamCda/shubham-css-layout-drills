@@ -1,0 +1,30 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-end;
+  height: 80vh;
+  width: 25vw;
+  background-color: red;
+}
+
+.div-1{
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-end;
+  background-color: green;
+}
+
+.div-2{
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
