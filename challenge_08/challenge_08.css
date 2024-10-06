@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.box-1 {
+  width: 20em;
+  height: 20em;
+  background-color: red;
+
+}
+
+.box-2 {
+  width: 10rem;
+  height: 10rem;
+  background-color: green;
+  position: absolute;
+  left: 10rem;
+  top: 0;
+}
