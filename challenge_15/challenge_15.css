@@ -1,0 +1,41 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 46vw;
+  height: 83vh;
+}
+
+.flex-box-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.div-1,
+.div-4{
+  height: 300px;
+  width: 300px;
+  background-color: red;
+}
+
+.flex-box-2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+
+}
+
+.div-2,
+.div-3{
+  height: 150px;
+  width: 150px;
+  background-color: rgb(26, 250, 6);
+}
+
